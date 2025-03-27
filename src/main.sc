@@ -8,12 +8,12 @@ theme: /
         event: noMatch || toState = "/NoMatch"
 
     state: Hello
-        intent!: /привет
+        intent!: /hello
         a: Привет привет. Я бот-помощник. Вы можете спросить меня про погоду или курсы валют.
         event: noMatch || toState = "/NoMatch"
 
     state: Weather
-        intent!: /погода
+        intent!: /weather
         a: Введите название города, для которого хотите узнать погоду.
         go: /CityInput
         event: noMatch || toState = "./"
