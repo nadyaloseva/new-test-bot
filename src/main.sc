@@ -15,7 +15,7 @@ theme: /
     state: Weather
         intent!: /погода
         a: Введите название города, для которого хотите узнать погоду.
-        go!: /CityInput
+        go: /CityInput
         event: noMatch || toState = "./"
 
     state: CityInput
