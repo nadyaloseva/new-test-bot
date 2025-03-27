@@ -21,19 +21,19 @@ theme: /
     state: CityInput
         intent!: /Город
         a: Погода в {{$request.query}}: +15°C, солнечно.
-        go!: /Bye
+        go: /Bye
         event: noMatch || toState = "/NoMatch"
 
     state: Currency
         intent!: /currency
         a: Введите код валюты (например, USD, EUR), чтобы узнать курс.
-        go!: /CurrencyInput
+        go: /CurrencyInput
         event: noMatch || toState = "/NoMatch"
 
     state: CurrencyInput
         intent!: /валюта
         a: Курс {{$request.query}} к рублю: 90.5.
-        go!: /Bye
+        go: /Bye
         event: noMatch || toState = "/NoMatch"
 
     state: Bye
