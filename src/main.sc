@@ -1,6 +1,5 @@
-'''
 require: slotfilling/slotFilling.sc
-  module = sys.zb-common
+module = sys.zb-common
 theme: /
 
 theme: /
@@ -52,4 +51,3 @@ theme: /
           a: Доллар стоит 82 рубля, а евро — 94 рубля.
           a: Курс валют на сегодня: доллар — 82 рубля, евро — 94 рубля.
           
-   '''
